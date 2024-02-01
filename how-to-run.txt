@@ -1,0 +1,10 @@
+1. Patikan memiliki versi PHP minimal 8.1.
+2. Buka terminal, pastikan sudah berada pada direktori root folder ini.
+3. Jalankan perintah 'composer install'.
+4. Jalankan perintah 'rm public/storage'.
+5. Jalankan perintah 'php artisan storage:link'.
+6. Jalankan perintah 'php artisan key:generate'.
+7. Buat database baru dengan nama schema 'spk-rusunawa-v3'.
+8. Jalankan perintah 'php artisan migrate:fresh --seed'.
+9. Jalankan perintah 'php artisan serve'.
+10. sistem dapat diakses secara lokal pada alamat http://127.0.0.1:8000
