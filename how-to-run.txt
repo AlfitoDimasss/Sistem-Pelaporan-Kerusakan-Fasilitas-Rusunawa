@@ -1,6 +1,13 @@
 1. Patikan memiliki versi PHP minimal 8.1.
 2. Buka terminal, pastikan sudah berada pada direktori root folder ini.
 3. Jalankan perintah 'composer install'.
+4. Jalankan perintah 'cp .env.example .env'
+5. Buka file .env, masukkan value-value pada Variabel yang bersifat REQUIRED, meliputi:
+    DB_USERNAME (username mysql)
+    DB_PASSWORD (password mysql)
+    FONT_AWESOME_KIT (Kit Font Awesome 5)
+    FONNTE_TOKEN (ID Token WhatsApp yang terhubung dengan Fonnte)
+    FONNTE_GROUP_ID (ID Grup WhatsApp sebagai penerima notifikasi WhatsApp)
 4. Jalankan perintah 'rm public/storage'.
 5. Jalankan perintah 'php artisan storage:link'.
 6. Jalankan perintah 'php artisan key:generate'.
